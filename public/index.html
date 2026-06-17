@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EMS — Employee Management System | Prodigy InfoTech</title>
+  <meta name="description" content="Employee Management System — Admin and Employee portals for Prodigy InfoTech." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body class="landing-page">
+
+  <!-- Nav -->
+  <nav class="landing-nav">
+    <div class="nav-brand">
+      <div class="nav-logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      </div>
+      <div>
+        <div class="nav-brand-name">EMS</div>
+        <div class="nav-brand-sub">Prodigy InfoTech</div>
+      </div>
+    </div>
+    <span style="font-size:0.8125rem;color:var(--text-muted);">Task — 02</span>
+  </nav>
+
+  <!-- Hero -->
+  <main class="landing-body">
+    <div class="landing-eyebrow">
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4"/></svg>
+      Prodigy InfoTech · Internship Project
+    </div>
+
+    <h1 class="landing-h1">
+      Manage your <em>team</em> with clarity and confidence
+    </h1>
+
+    <p class="landing-sub">
+      A secure, role-based employee portal. Admins manage records, employees access their own details — all in one place.
+    </p>
+
+    <!-- Portal cards -->
+    <div class="portal-grid">
+      <a href="admin/login.html" class="portal-card" id="admin-portal-card">
+        <div class="portal-card-icon admin">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+        </div>
+        <div class="portal-card-title">Admin Portal</div>
+        <div class="portal-card-desc">Manage all employee records, perform CRUD operations, view reports and track your team.</div>
+        <div class="portal-card-cta">
+          Enter Admin Portal
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </div>
+      </a>
+
+      <a href="employee/login.html" class="portal-card" id="employee-portal-card">
+        <div class="portal-card-icon employee">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <div class="portal-card-title">Employee Portal</div>
+        <div class="portal-card-desc">Access your personal profile, view your salary, employment details and contact information.</div>
+        <div class="portal-card-cta" style="color:var(--accent-green)">
+          Enter Employee Portal
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </div>
+      </a>
+    </div>
+  </main>
+
+  <footer class="landing-footer">
+    © 2024 Prodigy InfoTech · Employee Management System · Task 02
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+:root {
+  /* === COLORS === */
+  --bg-base:             #f5f4f0;
+  --bg-card:             #ffffff;
+  --bg-sidebar:          #1b1f35;
+  --bg-sidebar-hover:    #252c48;
+  --bg-sidebar-active:   rgba(59, 91, 219, 0.25);
+
+  --accent-primary:      #3b5bdb;
+  --accent-primary-dark: #3451c7;
+  --accent-primary-light:#eef2ff;
+  --accent-primary-faint:#f3f5ff;
+
+  --accent-warm:         #e8590c;
+  --accent-warm-light:   #fff4e6;
+
+  --accent-green:        #2f9e44;
+  --accent-green-light:  #ebfbee;
+
+  --accent-amber:        #e67700;
+  --accent-amber-light:  #fff8dc;
+
+  --accent-red:          #c92a2a;
+  --accent-red-light:    #fff5f5;
+
+  --accent-purple:       #7048e8;
+  --accent-purple-light: #f3f0ff;
+
+  --accent-teal:         #0c8599;
+  --accent-teal-light:   #e3fafc;
+
+  --accent-pink:         #c2255c;
+  --accent-pink-light:   #fff0f6;
+
+  --text-heading:        #1a1d2e;
+  --text-body:           #4a4d65;
+  --text-muted:          #9396a8;
+  --text-on-dark:        #e8eaf0;
+  --text-on-dark-muted:  #7b7f9e;
+
+  --border:              #e5e4df;
+  --border-strong:       #cccac3;
+
+  /* === SHADOWS === */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.10), 0 4px 8px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 48px rgba(0, 0, 0, 0.12), 0 8px 16px rgba(0,0,0,0.06);
+
+  /* === SPACING === */
+  --sp-1:  4px;  --sp-2:  8px;  --sp-3:  12px;
+  --sp-4:  16px; --sp-5:  20px; --sp-6:  24px;
+  --sp-7:  28px; --sp-8:  32px; --sp-10: 40px;
+  --sp-12: 48px; --sp-16: 64px;
+
+  /* === RADII === */
+  --r-sm:   6px;
+  --r-md:   10px;
+  --r-lg:   14px;
+  --r-xl:   20px;
+  --r-2xl:  28px;
+  --r-full: 9999px;
+
+  /* === TRANSITIONS === */
+  --t-fast:   150ms ease;
+  --t-normal: 240ms ease;
+  --t-slow:   360ms ease;
+
+  /* === LAYOUT === */
+  --sidebar-w: 256px;
+
+  /* === TYPOGRAPHY === */
+  --font: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
